@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  text-align: right;
+  font-size: xx-large;
+  color: rosybrown
+}
+
+h2 {
+  text-align: center;
+  color: rosybrown
+}
+
+h4 {
+  color: rosybrown
+}

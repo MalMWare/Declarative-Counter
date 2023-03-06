@@ -24,12 +24,18 @@
 
 // export default App;
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import './App.css'
 
 function App(){
   let [ counter, changeCounter ] = useState(1)
+  window.changeCounter = changeCounter
   return ( 
-    <h1>{counter}</h1>
+    <div>
+      <h1>{counter}</h1>
+      <h2>{counter}</h2>
+      <h4>{counter}</h4>
+    </div>
   )
 }
 
